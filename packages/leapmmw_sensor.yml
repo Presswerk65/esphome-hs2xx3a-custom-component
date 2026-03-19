@@ -99,7 +99,7 @@ sensor:
   - platform: custom
     lambda: |-
       auto s = new leapmmw(id(uart_bus));
-      App.register_component(s);
+      App.register_component_(s);
       return {};
     sensors:
       
